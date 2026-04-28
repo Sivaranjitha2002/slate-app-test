@@ -1,0 +1,33 @@
+[debug] [2026-04-22T12:44:06.921Z] : 
+[debug] [2026-04-22T12:44:06.923Z] : ----------------------------------------------------------------------
+[debug] [2026-04-22T12:44:06.923Z] : Command:      /opt/homebrew/Cellar/node/24.8.0/bin/node /Users/ranjitha-18338/Documents/ZCatalyst-CLI/lib/bin/catalyst.js deploy slate angular
+[debug] [2026-04-22T12:44:06.923Z] : CLI Version:  1.25.1
+[debug] [2026-04-22T12:44:06.923Z] : Platform:     darwin
+[debug] [2026-04-22T12:44:06.923Z] : Node Version: v24.8.0
+[debug] [2026-04-22T12:44:06.923Z] : Time:         Wed Apr 22 2026 18:14:06 GMT+0530 (India Standard Time)
+[debug] [2026-04-22T12:44:06.923Z] : ----------------------------------------------------------------------
+[debug] [2026-04-22T12:44:06.923Z] : 
+[debug] [2026-04-22T12:44:07.302Z] : > authorizing via signed-in user option
+[debug] [2026-04-22T12:44:07.302Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL"]
+[debug] [2026-04-22T12:44:07.307Z] : > refreshing access token <
+[debug] [2026-04-22T12:44:07.308Z] : >>>> HTTP REQUEST : POST https://accounts.localzoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2026-04-22T12:44:08.171Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 22 Apr 2026 12:44:08 GMT","content-type":"application/json;charset=UTF-8","content-length":"2623","connection":"close","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2026-04-22T12:44:08.184Z] : >>>> HTTP REQUEST : GET https://consoleqa.catalyst.localzoho.com/baas/v1/project/30268000000029001 
+
+[debug] [2026-04-22T12:44:08.847Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 22 Apr 2026 12:44:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2026-04-22T12:44:08.852Z] : >>>> HTTP REQUEST : GET https://consoleqa.catalyst.localzoho.com/baas/v1/project/30268000000029001/environment 
+
+[debug] [2026-04-22T12:44:09.178Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 22 Apr 2026 12:44:09 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2026-04-22T12:44:09.200Z] : >>>> HTTP REQUEST : GET https://consoleqa.catalyst.localzoho.com/slate/v1/project/30268000000029001/app 
+
+[debug] [2026-04-22T12:44:09.655Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 22 Apr 2026 12:44:09 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"SAMEORIGIN","strict-transport-security":"max-age=63072000"}
+
