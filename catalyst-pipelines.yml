@@ -17,6 +17,4 @@ jobs:
 stages:
   - name: build
     jobs:
-      - - hello
-        - world
-      - hello-world
+      - deploy
