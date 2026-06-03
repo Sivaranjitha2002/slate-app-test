@@ -12,8 +12,9 @@ jobs:
   deploy:
     steps:
         - export export CATALYST_AUTH_URL=https://accounts.localzoho.com
+        - env
         - npm install /catalyst/zcatalyst-cli-1.26.0.tgz -g
-        - catalyst deploy --verbose
+        - catalyst deploy --token m_1004.e89ac65b3e3464fa56b95e350b3fafac.857b1459ff989d5c708de6a436d78c1b --verbose
 stages:
   - name: build
     jobs:
